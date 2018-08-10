@@ -1,16 +1,8 @@
-# Project 2 - Spatiotemporal Analysis with MapReduce
+# Spatiotemporal Analysis with Hadoop MapReduce
 
-This repository includes starter files and a sample directory structure. You are welcome to use it or come up with your own project structure.
+The project analyzes the sample of the North American Mesoscale Forecast System (NAM) dataset collected by NOAA.
 
-Project Specification: https://www.cs.usfca.edu/~mmalensek/courses/cs686/projects/project-2.html
-
-# Deliverables
-
-The project specification defines several questions that you will answer with MapReduce jobs. You should edit this document (README.md) with your answers as you find them, including figures, references, etc. This will also serve as a way of tracking your progress through the milestones.
-
-## Deliverable I
-
-1. Three places most likely to be struck by lightning:
+### 1. Three places most likely to be struck by lightning:
 
 <img width="378" alt="9evx" src="https://user-images.githubusercontent.com/21329854/33336788-e4a555ec-d425-11e7-865f-b4dbc1db8667.PNG">
 
@@ -19,13 +11,13 @@ The project specification defines several questions that you will answer with Ma
 <img width="367" alt="9ev0" src="https://user-images.githubusercontent.com/21329854/33336808-f7fb04b6-d425-11e7-8651-8f55558f24e0.PNG">
 
 
-2. Driest month in the bay area: (to determine the data points in the bay area, I have a condition in my mapper to get all the geohashes startingWith "9q" )
+### 2. Driest month in the bay area: (to determine the data points in the bay area, I have a condition in my mapper to get all the geohashes startingWith "9q" )
 
 February
 
 <img width="241" alt="drymonth" src="https://user-images.githubusercontent.com/21329854/33418297-14fb70c0-d55a-11e7-9093-7d59a7fb60a8.png">
 
-3. Five travel locations and the best time to visit: (Geohashes for my favorite cities taken from geohash locator. The criteria to select the best time to visit is when relative_humidity_zerodegc_isotherm is greater than 0 and less than 60 percent)
+### 3. Five travel locations and the best time to visit: (Geohashes for my favorite cities taken from geohash locator. The criteria to select the best time to visit is when relative_humidity_zerodegc_isotherm is greater than 0 and less than 60 percent)
 
 <img width="370" alt="1" src="https://user-images.githubusercontent.com/21329854/33339275-7cb8bcbe-d42d-11e7-855c-adf19e060a4d.PNG">  [Sep, Feb, Mar, Apr, Oct, May, Nov, Dec, Jul, Jun, Aug]
 
@@ -37,7 +29,7 @@ February
 
 <img width="376" alt="5" src="https://user-images.githubusercontent.com/21329854/33339449-0a3324d0-d42e-11e7-9ad2-bacd7c3012e1.PNG">  [Sep, Feb, Mar, Apr, Oct, Jan, May, Nov, Dec, Jul, Jun, Aug]
 
-4. Solar And Wind Farms:
+### 4. Solar And Wind Farms:
 
 Solar Farm:
 
@@ -64,7 +56,7 @@ Solar and Wind Farm:
 <img width="336" alt="sw3" src="https://user-images.githubusercontent.com/21329854/33418559-4991d878-d55b-11e7-90b2-e5ac8ec835ae.PNG">
 
 
-5. Climate Chart:
+### 5. Climate Chart:
 
 <img width="500" alt="climate" src="https://user-images.githubusercontent.com/21329854/33342928-7f94a21c-d438-11e7-8efb-292781521234.png">
 
