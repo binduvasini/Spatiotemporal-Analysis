@@ -1,4 +1,4 @@
-# Spatiotemporal Analysis with Hadoop MapReduce
+# Spatiotemporal Analysis using Hadoop MapReduce
 
 The project analyzes the sample of the North American Mesoscale Forecast System (NAM) dataset collected by NOAA.
 
