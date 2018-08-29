@@ -1,6 +1,6 @@
 # Spatiotemporal Analysis using Hadoop MapReduce
 
-The project analyzes the sample of the North American Mesoscale Forecast System (NAM) dataset collected by NOAA.
+This project analyzes the sample of the North American Mesoscale Forecast System (NAM) dataset collected by NOAA.
 
 ### 1. Three places most likely to be struck by lightning:
 
